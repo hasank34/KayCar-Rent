@@ -1,0 +1,369 @@
+header{
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 96px 0px 96px;
+    border: 0;
+
+    
+}
+
+
+
+.icon{
+    margin-bottom: 40px;
+    font-size: 30px;
+    padding-right: px;
+    
+}
+
+.logo img{
+    background-color: #fff;
+    height: 100px;
+    box-sizing: border-box;
+    pointer-events: none;
+    display: inline-block;
+    padding-right: 90px;
+    
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.nav_links li a{
+    margin: 0px 32px 0px 0px;
+    color: #666666;
+    padding: 10px 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bolder;
+    
+    
+    
+}
+
+.nav_links li a:hover{
+    color: black;
+}
+
+.icon2{
+display: flex;
+padding-right: 120px;
+flex-wrap: wrap;
+
+
+
+}
+
+.icon2 i{
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* ------------resim------------------- */
+
+.wrapper img{
+    width: 100%;
+    object-fit: cover;
+    height: 1300px;
+    font-size: 100%;
+    background-color: #e1dedc;
+   
+    
+}
+
+.islem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -1500px;
+    position: relative;
+    border: 0;
+    height: auto;
+    padding: 90px 0px 90px 0;
+    font-size: 25px;
+    
+    
+    
+}
+
+.soru{
+    color: #fff;
+    position: absolute;
+    margin-top: -1600px;
+    padding-left: 650px;
+    
+}
+
+.soru h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.islemyazi{
+    display: flex;
+    cursor: pointer;
+    font-size: 20px;
+   
+    
+    
+}
+
+.islemyazi p:last-child:hover{
+    background-color: white;
+    
+
+}
+
+.islemyazi p{
+    padding: 10px;
+    border: solid 2px rgb(46, 45, 45);
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 400px;
+    
+   
+
+}
+
+.islemyazi p:first-child{
+    background-color: rgb(64, 62, 59);
+    border: solid 2px white;
+    color: white;
+    
+
+}
+
+.islemyazi p:first-child:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.form-container{
+    border: solid 2px #666666;
+    font-size: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 400px;
+
+   
+    
+}
+
+
+.form-container input{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.form-container label{
+    font-size: 20px;
+    color: black;
+}
+
+.bwm-reklam{
+   margin-top: 1100px;
+}
+
+.bwm-reklam video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    font-size: 100%;
+    margin-top: -250px;
+    
+
+}
+.bwm-tanıtım{
+    margin-top: -900px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+.bwm-tanıtım h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bwm-tanıtım{
+    font-size: 25px;
+
+}
+
+.btn{
+    color: #fff !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 90px !important;
+    margin-top: -150px !important;
+    
+}
+
+.btn-icyazi {
+    cursor: pointer !important;
+    
+    
+}
+
+.btn-icyazi h2 { 
+    
+    background-color: black !important; 
+    border: solid 1px #fff !important;
+    
+    position: relative !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    width: 200px !important;
+    
+}
+
+.harita{
+    margin-top: 400px;
+    background-color: rgb(134, 130, 130);
+    padding-left: 350px;
+    width: 90%;
+    object-fit: cover;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    
+}
+
+.harita img{
+    width: 1000px;
+    object-fit: cover;
+    height: 100%;
+    margin-top: 50px;
+    
+    
+    
+    
+}
+
+.harita h1{
+    padding-left: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+
+
+footer{
+    margin-top: 30px;
+}
+
+.cars{
+    background-color: #8d8a88;
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 50px;
+    display: flex;
+    
+   
+}
+
+.carsas img{
+    
+    transition: all 0.3s;
+}
+
+.carsas img:hover{
+    scale: 1.18;
+    cursor: pointer;
+
+   
+}
+
+.cars h3{
+    padding-left: 120px;
+    margin-top: 5px;
+    color: rgb(33, 25, 25);
+    font-size: 20px;
+    
+}
+
+.sonros{
+    margin-top: 300px;
+
+}
+
+.sonros img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    font-size: 100%;
+    margin-top: -250px;
+}
+
+
+.btn2{
+    color: #fff !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 90px !important;
+    margin-top: 250px !important;
+    
+}
+
+.btn-icyazi2 {
+    cursor: pointer !important;
+    
+    
+}
+
+.btn-icyazi2 h2 { 
+    
+    background-color: black !important; 
+    border: solid 1px #fff !important;
+    
+    position: relative !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    width: 200px !important;
+}
+
+.bwm-tanıtım2{
+    margin-top: -700px;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.bwm-tanıtım2 h1{
+    padding-left: 700px;
+
+} 
+
+.col-lg-3 ul a:hover{
+    font-weight: bold !important ;
+
+}
